@@ -2,7 +2,7 @@
 
 set -o errexit
 
-cd ${DATA_FOLDER} 
+cd ${DATA_FOLDER}
 
 tar -zcf backup.tar.gz . 
 
